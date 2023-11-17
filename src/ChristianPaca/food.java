@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package ChristianPaca;
 
 /**
@@ -10,5 +6,18 @@ package ChristianPaca;
  * @author Admin
  */
 public class food {
+      String name;
     
+    food(String name){
+        this.name=name;
+    }
+    
+    void adubo(){
+        System.out.println(name + " is yummy");
+    }
+    
+    void halanghalang(){
+        System.out.println(name + " is spicy");
+    }
 }
+

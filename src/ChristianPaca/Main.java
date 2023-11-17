@@ -8,7 +8,7 @@ package ChristianPaca;
 public class Main {
     
     public static void main(String[] args) {
-        Favorite sudan= new Favorite ("");
+        Favorite sudan= new Favorite ("adubo");
       
        sudan.adubo();
        sudan.halanghalang();
